@@ -1,0 +1,29 @@
+  @font-face {
+    font-family: "starjedi-outline";   /*Can be any text*/
+    src: local("Starjout"),
+      url("../../fonts/Starjout.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "franklin-gothic";   /*Can be any text*/
+    src: local("FranklinGothic"),
+      url("../../fonts/FranklinGothic.ttf") format("truetype");
+  }
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100vw;
+    z-index: 10;
+}
+
+h2{
+    font-family: 'starjedi-outline';
+    font-size: 50%;
+}
+
